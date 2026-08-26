@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контакты и салоны — МЕБЕЛЬ&ВРЕМЯ</title>
+<meta name="description" content="Адреса салонов МЕБЕЛЬ&ВРЕМЯ, телефон горячей линии, контактная и обратная связь. Запись на консультацию.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="contacts">
+<header id="site-header"></header>
+
+<main>
+  <div class="page-breadcrumb-wrap">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a><span class="sep">/</span><span class="current">Контакты</span>
+      </nav>
+    </div>
+  </div>
+
+  <div class="page-head">
+    <div class="container">
+      <span class="overline">Мы рядом</span>
+      <h1>Контакты и салоны</h1>
+      <p class="lead">Обратитесь в ближайший салон или оставьте заявку — мы перезвоним.</p>
+    </div>
+  </div>
+
+  <section class="section" style="padding-block:0 0 var(--mv-section-py);">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Обратная связь</h3>
+          <div class="contact-row">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <div><div class="k">Головной салон</div><div class="v">Москва, Пресненская наб., 12, ТЦ «Галерея»</div></div>
+          </div>
+          <div class="contact-row">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19 19 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6.1 6.1l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            <div><div class="k">Горячая линия</div><div class="v">+7 (900) 000-00-00 · Ежедневно 9:00–21:00</div></div>
+          </div>
+          <div class="contact-row">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v14H4zM4 7l8 6 8-6"/></svg>
+            <div><div class="k">E-mail</div><div class="v">info@mebel-vremya.ru</div></div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <h3>Заказать обратный звонок</h3>
+          <form class="js-form" novalidate>
+            <div class="form-grid" style="grid-template-columns:1fr;">
+              <div class="field"><label for="cb-name">Имя</label><input type="text" id="cb-name" name="name" placeholder="Ваше имя" required><span class="error-msg"></span></div>
+              <div class="field"><label for="cb-phone">Телефон</label><input type="tel" id="cb-phone" name="phone" placeholder="+7 (___) ___-__-__" required><span class="error-msg"></span></div>
+              <label class="consent"><input type="checkbox" name="consent" required><span>Согласен(на) на <a href="privacy.html">обработку персональных данных</a></span><span class="error-msg"></span></label>
+            </div>
+            <button class="btn btn--primary btn--block" type="submit" style="margin-top:16px;">Жду звонка</button>
+            <div class="form-success" style="margin-top:16px;"><div class="check">✓</div><h3>Спасибо!</h3><p>Заявка отправлена. Менеджер свяжется с вами.</p></div>
+          </form>
+        </div>
+      </div>
+
+      <div class="section-head" style="margin-top:var(--mv-space-8);">
+        <span class="overline">Салоны</span>
+        <h2>Адреса наших салонов</h2>
+      </div>
+      <div class="salon-list">
+        <div class="salon">
+          <h4>Москва</h4>
+          <p style="margin-top:8px;">Пресненская наб., 12, ТЦ «Галерея»<br><span class="muted">Ежедневно 10:00–21:00</span></p>
+        </div>
+        <div class="salon">
+          <h4>Санкт-Петербург</h4>
+          <p style="margin-top:8px;">Невский проспект, 88<br><span class="muted">Ежедневно 10:00–21:00</span></p>
+        </div>
+        <div class="salon">
+          <h4>Казань</h4>
+          <p style="margin-top:8px;">ул. Баумана, 19<br><span class="muted">Ежедневно 10:00–20:00</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/products.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

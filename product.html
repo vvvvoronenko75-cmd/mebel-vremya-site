@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Карточка товара — МЕБЕЛЬ&ВРЕМЯ</title>
+<meta name="description" content="Описание товара, характеристики, материалы, цена. Добавьте в корзину или избранное.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="product">
+<header id="site-header"></header>
+
+<main>
+  <div class="page-breadcrumb-wrap">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a><span class="sep">/</span>
+        <a href="catalog.html">Каталог</a><span class="sep">/</span>
+        <span class="current" id="breadcrumb-current">Товар</span>
+      </nav>
+    </div>
+  </div>
+
+  <section class="section" style="padding-block:clamp(1.5rem,4vw,3rem) var(--mv-section-py);">
+    <div class="container">
+      <div id="product-root"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/products.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

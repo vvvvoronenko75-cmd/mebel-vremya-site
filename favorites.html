@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Избранное — МЕБЕЛЬ&ВРЕМЯ</title>
+<meta name="description" content="Отложенные товары в избранном. Сохраняйте понравившуюся мебель и возвращайтесь к ней позже.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="favorites">
+<header id="site-header"></header>
+
+<main>
+  <div class="page-breadcrumb-wrap">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a><span class="sep">/</span><span class="current">Избранное</span>
+      </nav>
+    </div>
+  </div>
+
+  <div class="page-head">
+    <div class="container">
+      <span class="overline">Ваши отложенные товары</span>
+      <h1>Избранное</h1>
+      <p class="lead" id="fav-count-msg"></p>
+    </div>
+  </div>
+
+  <section class="section" style="padding-block:0 0 var(--mv-section-py);">
+    <div class="container">
+      <div class="product-grid" id="fav-grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/products.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

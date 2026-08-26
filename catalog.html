@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Каталог мебели — МЕБЕЛЬ&ВРЕМЯ</title>
+<meta name="description" content="Каталог премиальной мебели: диваны, кресла, гостиные, спальни, столы и стулья, аксессуары. Фильтры, поиск, сортировка.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="catalog">
+<header id="site-header"></header>
+
+<main>
+  <div class="page-breadcrumb-wrap">
+    <div class="container">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a><span class="sep">/</span><span class="current" data-catalog-title>Каталог мебели</span>
+      </nav>
+    </div>
+  </div>
+
+  <div class="page-head">
+    <div class="container">
+      <span class="overline">Каталог</span>
+      <h1 data-catalog-title>Каталог мебели</h1>
+      <p class="lead" data-catalog-subtitle>Вся мебель премиум-сегмента для гостиной, спальни и столовой.</p>
+    </div>
+  </div>
+
+  <section class="section" style="padding-block:0 0 var(--mv-section-py);">
+    <div class="container">
+      <div class="catalog-top">
+        <div class="sort-row">
+          <input type="search" id="catalog-search" placeholder="Поиск по каталогу…" style="height:44px;padding:0 16px;border:1px solid var(--mv-graphite-300);border-radius:8px;font:400 15px var(--mv-font-sans);min-width:220px;">
+          <select id="sort" class="sort-select" aria-label="Сортировка">
+            <option value="default">По умолчанию</option>
+            <option value="price-asc">Цена ↑</option>
+            <option value="price-desc">Цена ↓</option>
+            <option value="new">Сначала новинки</option>
+            <option value="name">По названию</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="filters" id="filters"></div>
+
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--mv-space-4);">
+        <span class="result-count" id="count">Найдено: 0</span>
+      </div>
+
+      <div class="product-grid" id="product-grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer"></footer>
+
+<script src="assets/products.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
