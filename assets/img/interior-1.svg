@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Интерьер — тёплый минимализм">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7D3C3"/><stop offset="1" stop-color="#CDAA8D"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <g fill="none" stroke="#5F584C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M120 520 v-70 a24 24 0 0 1 24-24 h312 a24 24 0 0 1 24 24 v70"/>
+    <rect x="120" y="520" width="360" height="56" rx="16"/>
+    <path d="M156 576 v36 M444 576 v36"/>
+    <path d="M150 470 h150 M330 470 h150"/>
+  </g>
+</svg>
